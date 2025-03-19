@@ -20,7 +20,8 @@ go run ./client --addr=localhost:12345
 
 #### Client <-> Server Flow
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/illiafox/plantuml-markdown/main/docs/schema.iuml)
+![Client <-> Server Flow
+](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/illiafox/wireshark-dissector-example/refs/heads/main/docs/schema.iuml)
 
 ```plantuml
 @startuml
