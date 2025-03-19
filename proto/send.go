@@ -8,6 +8,10 @@ import (
 	"io"
 )
 
+// | OpCode | ID Length | Station ID  | Temperature | Humidity | Pressure |
+// | ------ | --------- | ----------- | ----------- | -------- | -------- |
+// | 1 byte | 1 byte    | (id length) | 4 bytes     | 4 bytes  | 4 bytes  |
+
 // SendMessage represents data sent from weather station
 // Endianness: Little Endian
 //
