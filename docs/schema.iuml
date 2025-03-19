@@ -1,0 +1,8 @@
+@startuml
+Client -> Server : SEND (0x2): ID, Temperature, Humidity, Pressure
+Server -> Client : ACK (0x1)
+Client -> Server : SEND (0x2): ID, Temperature, Humidity, Pressure
+Server -> Client : ACK (0x1)
+Client -> Server : SEND (0x2): ID, Temperature, Humidity, Pressure
+Server -> Client : ACK (0x1)
+@enduml

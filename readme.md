@@ -14,11 +14,13 @@ go run ./client --addr=localhost:12345
 
 #### Screenshots
 
-![img.png](screenshots/preview.png)
-![img.png](screenshots/1.png)
+![img.png](docs/preview.png)
+![img.png](docs/1.png)
 
 
 #### Client <-> Server Flow
+
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/illiafox/plantuml-markdown/main/docs/schema.iuml)
 
 ```plantuml
 @startuml
